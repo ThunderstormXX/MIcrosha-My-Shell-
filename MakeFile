@@ -1,0 +1,5 @@
+all:
+	echo "Compilling test2 with key :-fsanitize=address -g"
+	g++ microsha.cpp -o test2 -fsanitize=address -g
+	echo "Compilling test1 , no key"
+	g++ microsha.cpp -o test1
